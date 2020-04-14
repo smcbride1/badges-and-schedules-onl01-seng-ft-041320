@@ -1,5 +1,5 @@
 # Write your code here.
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -21,7 +21,7 @@ def assign_rooms(speakers)
   room_assignments
 end
 
-def printer
-  puts batch_badge_creator(speakers)
-  puts assign_rooms(speakers)
+def printer(attendees)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end
